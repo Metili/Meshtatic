@@ -1,0 +1,10 @@
+{
+  "build": {
+    "core": "stm32",                 // on dit à PlatformIO qu'on compile pour STM32
+    "cpu": "cortex-m3",              // le cœur CPU de ton L151CC
+    "extra_flags": "-DSTM32L151xC",  // définit le modèle exact du MCU
+    "f_cpu": "32000000L",            // fréquence 32 MHz
+    "mcu": "stm32l151cc",            // nom du chip
+    "variant": "STM32L1xx"           // famille de cartes STM32
+  }
+}
